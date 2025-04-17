@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sign up</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/signup.css'>
+</head>
+<body>
+    <div class="container flex">
+        <div class="left box">
+            <div class="signup-message flex">
+                <div class="logo">
+                    <img src="./images/icon.png" alt="logo" width="300px">
+                </div>
+                <h4>Let's sign up First</h4>
+            </div>
+        </div>
+        <div class="right box">
+            <form class="input-form flex" id="input-form">
+                <div class="name-input group">
+                    <label for="Name">Enter your Name: </label>
+                    <input type="text" class="Name" id="Name" value="djojonfmpwd">
+                    <div class="name-err error"></div>
+                </div>
+                <div class="email-input group">
+                    <label for="email">Enter your Email: </label>
+                    <input type="email" class="email" id="email" value="williamjames@gmail.com">
+                    <div class="email-err error"></div>
+                </div>
+                <div class="skill-category-input group">
+                    <label for="skill-category">Enter your skill category: </label>
+                    <select id="skill-category">
+                        <option value="Accounting & Bookkeeping">Accounting & Bookkeeping</option>
+                        <option value="Content Writing">Content Writing</option>
+                        <option value="Customer Support">Customer Support</option>
+                        <option value="Data Entry">Data Entry</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Graphic Design">Graphic Design</option>
+                        <option value="Legal Consulting">Legal Consulting</option>
+                        <option value="Photography">Photography</option>
+                        <option value="Project Management">Project Management</option>
+                        <option value="Social Media Management">Social Media Management</option>
+                        <option value="Translation Services">Translation Services</option>
+                        <option value="Tutoring">Tutoring</option>
+                        <option value="Video Editing">Video Editing</option>
+                        <option value="Virtual Assistance">Virtual Assistance</option>
+                        <option value="Web development">Web development</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div class="portfolio-input group">
+                    <label for="portfolio">Enter your Portfolio: </label>
+                    <input type="text" class="portfolio" id="portfolio" placeholder="E.g. Github, Personal Website, etc." value="oejgeogje">
+                    <div class="portfolio-err error"></div>
+                </div>
+                <div class="password-input group">
+                    <label for="password">Create password: </label>
+                    <input type="password" class="password" id="password" value="12345678">
+                    <div class="password-err error"></div>
+                </div>
+                <div class="confirm-password-input group">
+                    <label for="">Enter your name: </label>
+                    <input type="password" class="confirm-password" id="confirm-password" value="12345678">
+                    <div class="confirm-password-err error"></div>
+                </div>
+
+                <button id="submit">submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
